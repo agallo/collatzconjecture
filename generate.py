@@ -13,7 +13,7 @@ def processOdd(value):
 
 
 def sequence(start):
-    for n in range(0, start):
+    for n in range(5, start):
         temp = n
         print temp,
         while temp > 1:
