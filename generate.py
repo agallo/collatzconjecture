@@ -19,11 +19,13 @@ def sequence(start):
         while temp > 1:
             Ulist = []
             if temp % 2 == 0:
-                temp = processEven(temp)
-                print temp,
+                Ulist.append(processEven(temp))
+                print Ulist[0],
+                temp = Ulist[0]
             else:
-                temp = processOdd(temp)
-                print temp,
+                Ulist.append(processOdd(temp))
+                print Ulist[0],
+                temp = Ulist[0]
         print
 
 
