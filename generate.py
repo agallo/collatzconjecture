@@ -26,6 +26,8 @@ def sequence(start):
                 Ulist.append(processOdd(temp))
                 print Ulist[-1],
                 temp = Ulist[-1]
+        print Ulist
+
 
 def main():
     startval = input("Enter starting value: ")
