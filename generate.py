@@ -13,6 +13,7 @@ def processOdd(value):
 
 
 def sequence(start):
+    print "var start has a value of " + str(start) + " and is of type " + str(type(start))
     for n in range(0, start):
         temp = n
         print temp,
