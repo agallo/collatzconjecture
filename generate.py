@@ -24,6 +24,7 @@ def sequence(start):
             else:
                 temp = processOdd(temp)
                 print temp,
+        print
 
 
 def main():
