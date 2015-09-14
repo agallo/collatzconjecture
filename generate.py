@@ -27,3 +27,11 @@ def sequence(start):
                 print Ulist[0],
                 temp = Ulist[0]
         print
+
+
+def main():
+    startval = raw_input("Enter starting value: ")
+    sequence(startval)
+
+
+main()
