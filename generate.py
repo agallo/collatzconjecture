@@ -26,7 +26,7 @@ def sequence(start):
                 Ulist.append(processOdd(temp))
                 print Ulist[0],
                 temp = Ulist[0]
-        print
+            print
 
 
 def main():
