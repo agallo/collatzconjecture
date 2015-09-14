@@ -33,7 +33,7 @@ def sequence(start):
         Ulist.append('FTO')
         print Ulist
         CC.add_path(Ulist)
-    A = nx.to_agraph(DG)
+    A = nx.to_agraph(CC)
     one = A.add_subgraph(firsthopASNs)
     A.draw('cc.png', prog='dot')
 
