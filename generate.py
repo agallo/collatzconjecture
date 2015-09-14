@@ -16,7 +16,6 @@ def sequence(start):
     for n in range(5, start):
         temp = n
         Ulist = [temp]
-        print temp,
         while temp > 1:
             if temp % 2 == 0:
                 Ulist.append(processEven(temp))
