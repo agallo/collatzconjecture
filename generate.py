@@ -20,10 +20,10 @@ def sequence(start):
             Ulist = []
             if temp % 2 == 0:
                 temp = processEven(temp)
-                print temp
+                print temp,
             else:
                 temp = processOdd(temp)
-                print temp
+                print temp,
             print
 
 
