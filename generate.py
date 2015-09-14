@@ -20,11 +20,10 @@ def sequence(start):
             Ulist = []
             if temp % 2 == 0:
                 temp = processEven(temp)
-                print "even: " + str(temp),
+                print temp,
             else:
                 temp = processOdd(temp)
                 print temp,
-            print
 
 
 def main():
