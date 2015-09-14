@@ -15,9 +15,9 @@ def processOdd(value):
 def sequence(start):
     for n in range(5, start):
         temp = n
+        Ulist = []
         print temp,
         while temp > 1:
-            Ulist = []
             if temp % 2 == 0:
                 Ulist.append(processEven(temp))
                # print Ulist[0],
