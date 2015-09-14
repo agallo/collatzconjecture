@@ -31,7 +31,7 @@ def sequence(start):
 
 def main():
     startval = raw_input("Enter starting value: ")
-    sequence(startval)
+    sequence(str(startval))
 
 
 main()
