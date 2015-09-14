@@ -3,6 +3,12 @@
 
 __author__ = 'Andrew Gallo'
 
+import networkx as nx
+import pygraphviz as pgv
+
+
+CC = nx.DiGraph()
+
 
 def processEven(value):
     return value / 2
@@ -26,6 +32,9 @@ def sequence(start):
         Ulist = Ulist[0:-3]
         Ulist.append('FTO')
         print Ulist
+        CC.add_path(Ulist)
+    one = A.add_subgraph(firsthopASNs)
+    A.draw('cc.png', prog='dot')
 
 
 def main():
