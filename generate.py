@@ -9,7 +9,7 @@ def processEven(value):
 
 
 def processOdd(value):
-    return (3 * value) * 1
+    return (3 * value) + 1
 
 
 def sequence(start):
