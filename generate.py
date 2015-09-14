@@ -20,12 +20,12 @@ def sequence(start):
         while temp > 1:
             if temp % 2 == 0:
                 Ulist.append(processEven(temp))
-                print Ulist[0],
-                temp = Ulist[0]
+                print Ulist[-1],
+                temp = Ulist[-1]
             else:
                 Ulist.append(processOdd(temp))
-                print Ulist[0],
-                temp = Ulist[0]
+                print Ulist[-1],
+                temp = Ulist[-1]
 
 def main():
     startval = input("Enter starting value: ")
