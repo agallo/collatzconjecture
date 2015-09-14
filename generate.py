@@ -23,6 +23,8 @@ def sequence(start):
             else:
                 Ulist.append(processOdd(temp))
                 temp = Ulist[-1]
+        Ulist = Ulist[0:-3]
+        Ulist.append('FTO')
         print Ulist
 
 
